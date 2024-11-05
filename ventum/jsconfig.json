@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "app/",
+    "paths": {
+      "@/styles/*": ["styles/*"],
+      "@/assets/logos*": ["../public/logos/*"],
+      "@/assets/images*": ["../public/images/*"],
+      "@/assets/icons*": ["../public/icons/*"]
+    }
+  }
+}
