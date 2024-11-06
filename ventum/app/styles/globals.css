@@ -1,6 +1,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --sun-color: #f15a22;
+  --white-color: #ffffff;
+  --sunset-color: #fbaba2;
+  --sand-color: #efdec7;
+  --wind-color: #456eef;
+  --nature-color: #828236;
+  --sea-color:#8daef5;
+  --earth-color: #001038;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +42,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+p, li, td, a{
+  font-family: var(--font-work-sans);
 }
 
 @media (prefers-color-scheme: dark) {
