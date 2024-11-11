@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import {Work_Sans} from "next/font/google"
-import "./styles/globals.css";
-import { NavBar } from "../components/NavBar";
+import { NavBar } from "@/components/NavBar";
+import "./styles/globals.scss";
 
 const work_sans = Work_Sans({
   subsets: ['latin'],

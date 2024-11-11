@@ -1,4 +1,4 @@
-import styles from "@/styles/page.module.css";
+import styles from "@/styles/page.module.scss";
 import Image from "next/image";
 /* -- Assets --*/
 import home_background from '@/assets/images/home_page_background.jpg';

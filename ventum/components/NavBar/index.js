@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from '../../app/styles/NavBar.module.css';
+import styles from "@/styles/NavBar.module.scss";
 /* -- Assets --*/
 import Logo from '@/assets/logos/header_logo.svg'; 
 
@@ -10,7 +10,7 @@ export const NavBar = () => {
       <ul className={styles.navHeader}>
         <li className={styles.navLogo}>
           <Link href='/'>
-            <Image src={Logo} alt="Logo"/>
+            <Logo width="auto" height="auto"/>
           </Link>
         </li>
         <li className={styles.links}>
