@@ -9,12 +9,52 @@ const work_sans = Work_Sans({
   weight: ['100','200','300','400','500','600','700','800','900']
 });
 
-//! find mansory font and set it in the project
-// const mansory = localFont({
-//   src:"./fonts/GeistVF.woff",
-//   variable:"--font-mansory",
-//   weight: ['100','200','300','400','500','600','700','800','900']
-// });
+const mansory = localFont({
+  src:[
+    {
+      path: './fonts/Mansory.otf',
+      weight: '400',
+      style: 'normal'
+    },
+    {
+      path: './fonts/Mansory-Oblique.otf',
+      weight: '400',
+      style: 'italic'
+    },
+    {
+      path: './fonts/Mansory-Semi-Bold.otf',
+      weight: '600',
+      style: 'normal'
+    },
+    {
+      path: './fonts/Mansory-Medium.otf',
+      weight: '500',
+      style: 'normal'
+    },
+    {
+      path: './fonts/Mansory-Medium-Oblique.otf',
+      weight: '500',
+      style: 'italic'
+    },
+    {
+      path: './fonts/Mansory-Semi-Bold-Oblique.otf',
+      weight: '600',
+      style: 'italic'
+    },
+    {
+      path: './fonts/Mansory-Bold.otf',
+      weight: '700',
+      style: 'normal'
+    },
+    {
+      path: './fonts/Mansory-Bold-Oblique.otf',
+      weight: '700',
+      style: 'italic'
+    },
+  ],
+  variable:"--font-mansory",
+  weight: ['100','200','300','400','500','600','700','800','900']
+});
 
 
 const geistSans = localFont({
@@ -37,7 +77,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${work_sans.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${work_sans.variable} ${mansory.variable}`}>
         <NavBar />
         {children}
       </body>
