@@ -1,3 +1,60 @@
+$background: #ffffff;
+$foreground: #171717;
+$sun-color: #f15a22;
+$white-color: #ffffff;
+$sunset-color: #fbaba2;
+$sand-color: #efdec7;
+$wind-color: #456eef;
+$nature-color: #828236;
+$sea-color:#8daef5;
+$earth-color: #001038;
+
+
+$primary-font-family: var(--font-work-sans) ;
+$secondary-font-family: var(--font-mansory) ;
+
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+      @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+      @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+      @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+      @content;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -44,7 +101,10 @@ a {
   text-decoration: none;
 }
 p, li, td, a{
-  font-family: var(--font-work-sans);
+  font-family: $primary-font-family;
+}
+h1,h2,h3,h4,h5{
+  font-family: $secondary-font-family;
 }
 
 @media (prefers-color-scheme: dark) {
