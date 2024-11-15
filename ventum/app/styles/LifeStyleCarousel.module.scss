@@ -1,18 +1,19 @@
 .lifestyle{
-
     &_car_container {
         width: 100%;
         height: 100%;
         position: absolute;
+        border-radius: 50px;
     }
-
-    &_container {
+    &_carousel_image{
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
+}
 
-    &_image{
-        width: 100vh;
-        height: 100vh;
-    }
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
 }

@@ -1,25 +1,27 @@
 import React from 'react';
-import Image from 'next/image';
+import ImageCarousel from '@/components/ImageCarousel';
 /* -- Styles --*/
 import styles from "@/styles/HomeCarousel.module.scss";
 /* -- Assets --*/
 import ActionArrow from '@/assets/icons/action_arrow.svg';
 import PhoneBackground from '@/assets/icons/phone_background.svg';
 import KnowMoreButton from '@/assets/icons/know_more_button.svg';
-import home_background_1 from '@/assets/images/home_page_background_1.jpg';
 
 
 
 const HomeCarousel = () => {
     return (
         <section className={styles.homeCarousel}>
+            <section className={styles.backgroundImage}>
+                <ImageCarousel />
+            </section>
             <div className={styles.carouselContent}>
-                <div className={styles.arrow_left_container}><ActionArrow className={styles.arrow_left}/></div>
+                {/* <div className={styles.arrow_left_container}><ActionArrow className={styles.arrow_left}/></div> */}
                 <div className={styles.carouselText}>
                     <h1 className={styles.carouselText_title} >TU NUEVO HOGAR,</h1>
                     <h3 className={styles.carouselText_subTitle}>un refugio de desconexón</h3>
                 </div>
-                <div className={styles.arrow_right_container}><ActionArrow className={styles.arrow_right}/></div>
+                {/* <div className={styles.arrow_right_container}><ActionArrow className={styles.arrow_right}/></div> */}
                 <div className={styles.arrow_bottom_container}>
                     <div className={styles.knowMore}>
                         <KnowMoreButton className={styles.knowMore_logo}/>
@@ -28,19 +30,9 @@ const HomeCarousel = () => {
                     <ActionArrow className={styles.arrow_bottom}/>
                 </div>
                 <div className={styles.phone_container}>
-                    <PhoneBackground className={styles.phone_background}/>
+                    {/* <PhoneBackground className={styles.phone_background}/> */}
                 </div>
             </div>
-
-            <section className={styles.backgroundImage}>
-                <Image
-                    src={home_background_1}
-                    alt="home_background_1"
-                    fill={true}
-                />
-            </section>
-            
-            
         </section>
     );
 };

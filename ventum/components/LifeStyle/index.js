@@ -28,12 +28,7 @@ const LifeStyle = () => {
                 </p>
             </div>
             <div className={styles.lifestyle_carousel}>
-                <Image
-                    className={styles.lifestyle_carousel_image}
-                    src={lifestyle_1}
-                    alt="lifestyle_1"
-                    fill={true}
-                />
+                <LifeStyleCarousel />
             </div>
             
             
