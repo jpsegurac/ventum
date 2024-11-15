@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    height: 13rem;
+
+    &_title {
+        width: fit-content;
+        color: black;
+        font-size: 4rem;
+        font-weight: 50;
+        margin-bottom: 1.5rem;
+    }
+
+    &_by {
+        width: fit-content;
+        color: black;
+        border-top: 2px solid black;
+        padding-top: 0.7rem;
+    }
+}

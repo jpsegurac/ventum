@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import {Work_Sans} from "next/font/google"
-import { NavBar } from "@/components/NavBar";
+/* -- Styles --*/
 import "./styles/globals.scss";
 
 const work_sans = Work_Sans({
@@ -77,8 +77,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${work_sans.variable} ${mansory.variable}`}>
-        <NavBar />
+      <body className={`${geistSans.variable} ${geistMono.variable} ${work_sans.variable}`}>
         {children}
       </body>
     </html>

@@ -1,0 +1,37 @@
+.backgroundImage {
+    width: 100vw;
+    height: 60rem;
+    object-fit: cover;
+}
+
+.backgroundContainer{
+    width: 100vw;
+    height: 10rem;
+    position: absolute;
+
+}
+
+.carousel{
+    &_container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 50px;
+    }
+    &_image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.custom_swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev  {
+    color: white !important;
+    padding-left: 100px;
+}

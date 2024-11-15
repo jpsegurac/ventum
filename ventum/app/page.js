@@ -1,17 +1,20 @@
-import styles from "@/styles/page.module.scss";
-import Image from "next/image";
-/* -- Assets --*/
-import home_background from '@/assets/images/home_page_background.jpg';
+import MainWrapper from "@/components/MainWrapper";
+import HomeCarousel from "@/components/HomeCarousel";
+import LifeStyle from "@/components/LifeStyle";
+import HomeApartments from "@/components/HomeApartments";
+import HomeExtraInfo from "@/components/HomeExtraInfo";
+import HomeAirView from "@/components/HomeAirView";
+
 
 const Home = () => {
   return (
-      <section className={styles.backgroundImage}>
-        <Image
-          src={home_background}
-          fill={true}
-          alt="home_background"
-        />
-      </section>
+      <MainWrapper>
+        <HomeCarousel />
+        <LifeStyle />
+        <HomeApartments />
+        <HomeExtraInfo />
+        <HomeAirView />
+      </MainWrapper>
   );
 }
 export default Home;

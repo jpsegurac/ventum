@@ -1,0 +1,93 @@
+
+.homeApartment {
+    display: grid;
+    height: 45rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+
+    &_info {
+        grid-column: 2;
+        grid-row: 1;
+        text-align: center;
+
+        &_text {
+            font-size: 2.5rem;
+            font-weight: 50;
+            white-space: nowrap;
+
+            strong {
+                font-size: 3.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.arrow {
+    &_left {
+        width: 50px;
+        height: 50px;
+        transform: rotate(90deg);
+        &_container {
+            grid-column: 1;
+            grid-row: 2;
+        }
+    }
+
+    &_right {
+        width: 50px;
+        height: 50px;
+        transform: rotate(-90deg);
+        &_container {
+            grid-column: 3;
+            grid-row: 2;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+.knowApartments {
+    width: 100%;
+    height: 75px;
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    &_logo{
+        width: auto;
+        height: 50px;
+        opacity: 85%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &_text{
+        width: fit-content;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+}
+
+.pagination {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+}
+
+.backgroundImage {
+    width: 100%;
+    height: 60rem;
+    position: absolute;
+    z-index: -5;
+    left: 0;
+}

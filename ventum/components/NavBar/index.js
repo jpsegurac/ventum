@@ -1,10 +1,9 @@
 import Link from "next/link";
-import Image from "next/image";
 import styles from "@/styles/NavBar.module.scss";
 /* -- Assets --*/
 import Logo from '@/assets/logos/header_logo.svg'; 
 
-export const NavBar = () => {
+const NavBar = () => {
   return (
     <nav className={styles.nav}>
       <ul className={styles.navHeader}>
@@ -33,3 +32,5 @@ export const NavBar = () => {
     </nav>
   )
 }
+
+export default NavBar;
