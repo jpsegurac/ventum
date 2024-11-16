@@ -13,10 +13,6 @@ const ApartmentsHeader = () => {
     return (
         <section className={styles.homeCarousel}>
             <div className={styles.carouselContent}>
-                <div className={styles.carouselText}>
-                    <h1 className={styles.carouselText_title} >ZONAS SOCIALES</h1>
-                    <h3 className={styles.carouselText_subTitle}>para disfrutar todoso los dias</h3>
-                </div>
                 <div className={styles.arrow_bottom_container}>
                     <ActionArrow className={styles.arrow_bottom}/>
                 </div>
