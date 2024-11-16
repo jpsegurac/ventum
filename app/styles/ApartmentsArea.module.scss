@@ -1,0 +1,21 @@
+.container{
+    border-radius: 10px;
+    background-color: #bccef7;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 8px;
+    justify-content: space-around;
+}
+.label{
+    display: flex;
+    font-size: 0.60rem;
+    align-items: center;
+    font-weight: 400;
+    margin: 5px;
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-weight: 500;
+}

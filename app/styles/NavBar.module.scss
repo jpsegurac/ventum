@@ -1,0 +1,36 @@
+.nav {
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: #00000000;
+    margin-top: 2rem;
+    z-index: 2;
+  }
+
+.navHeader {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.navLinks {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.NavLogo {
+  flex: 1;  
+}
+
+.links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
