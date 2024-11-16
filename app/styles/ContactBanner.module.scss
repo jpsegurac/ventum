@@ -1,0 +1,24 @@
+.bannerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081438;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 75px;
+    transform: translateY(-150px);
+}
+.bannerTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 20px;
+}
+.bannerText{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 20px;
+}
