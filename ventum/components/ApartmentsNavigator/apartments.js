@@ -56,7 +56,7 @@ const apartments = {
         "buttonUrl":"urll!!"
     },
     "Tipo G1":{
-        "type":"Tipo G",
+        "type":"Tipo G1",
         "privateArea":"123.1",
         "constructedArea":"123.12",
         "floorLocationImageName":"imgurl1",

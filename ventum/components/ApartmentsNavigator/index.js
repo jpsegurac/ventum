@@ -13,7 +13,6 @@ const ApartmentsNavigator = () => {
             </span>
         );
     });
-    console.log(apartments,selectedApartment);
     return(
         <>
         <div className={styles.navigatorContianer}>

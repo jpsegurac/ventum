@@ -4,14 +4,14 @@ import MainWrapper from '@/components/MainWrapper';
 /* -- Styles --*/
 import styles from "@/styles/page.module.scss";
 import ApartmentsPageWrapper from '@/components/ApartmentsPageWrapper';
+import ApartmentsHeader from '@/components/ApartmentsHeader';
 
 
 const apartamentos = () => {
   return (
     <MainWrapper>
-      <div className={styles.page}>
+      <ApartmentsHeader />
       <ApartmentsPageWrapper />  
-      </div>
     </MainWrapper>
   )
 }
