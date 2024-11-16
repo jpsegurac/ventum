@@ -1,0 +1,13 @@
+.contactContainer{
+    margin: 20px;
+    display: flex;
+    @media(max-width: 768px){
+        flex-direction: column;
+    }
+}
+.ContactInfo{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin: 0px 50px;
+}
