@@ -4,6 +4,10 @@
   padding: 2rem;
   border-radius: 12px;
   width: 95%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .infoPanel {
@@ -12,6 +16,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 }
 
 .typeTextTitle {
