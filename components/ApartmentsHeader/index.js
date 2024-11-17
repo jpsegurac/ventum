@@ -9,12 +9,12 @@ import KnowMoreButton from '@/assets/icons/know_more_button.svg';
 
 
 
-const ApartmentsHeader = () => {
+const ApartmentsHeader = ({scrollDown}) => {
     return (
         <section className={styles.homeCarousel}>
             <div className={styles.carouselContent}>
                 <div className={styles.arrow_bottom_container}>
-                    <ActionArrow className={styles.arrow_bottom}/>
+                    <ActionArrow className={styles.arrow_bottom} onClick={scrollDown}/>
                 </div>
                 <div className={styles.phone_container}>
                     <PhoneBackground className={styles.phone_background}/>

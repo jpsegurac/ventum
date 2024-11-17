@@ -4,13 +4,11 @@ import styles from "@/styles/LifeStyle.module.scss";
 /* -- Assets --*/
 import VentumLifeStyle from '@/assets/logos/logo_ventum_lifestyle.svg';
 import LifeStyleCarousel from '@/components/LifeStyleCarousel';
-import lifestyle_1 from '@/assets/images/lifestyle_1.jpg';
-import Image from 'next/image';
 
 
-const LifeStyle = () => {
+const LifeStyle = ( {scrollRef} ) => {
     return (
-        <section className={styles.lifestyle}>
+        <section className={styles.lifestyle} ref={scrollRef}>
             <div className={styles.lifestyle_info_header}>
                 <VentumLifeStyle className={styles.lifestyle_info_header_title}/>
                 <h1 className={styles.lifestyle_info_header_subtitle}>Un estilo de vida</h1>

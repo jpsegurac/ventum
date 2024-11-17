@@ -1,7 +1,7 @@
 .customLine{
     color: #0f1f44;
     margin: 10px 90% 10px 0px;
-    border-top: 3px solid;
+    border-top: 2px solid;
 }
 
 .contactInfo{
@@ -10,4 +10,10 @@
     justify-content: space-between;
     gap: 30px;
     margin-bottom: 50px;
+    color: var(--earth-color);
+}
+
+.contactInfoTitle {
+    font-weight: 300;
+    font-size: x-large;
 }

@@ -1,4 +1,5 @@
-import React from 'react';
+"use client";
+import React, { useRef } from 'react';
 import MainWrapper from '@/components/MainWrapper';
 
 /* -- Styles --*/
@@ -9,10 +10,17 @@ import ApartmentsBanner from '@/components/ApartmentsBanner';
 
 
 const apartamentos = () => {
+
+  const sectionRef = useRef(null);
+
+  const scrollToSection = () => {
+    sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <MainWrapper>
-      <ApartmentsHeader />
-      <ApartmentsBanner />
+      <ApartmentsHeader scrollDown={scrollToSection}/>
+      <ApartmentsBanner scrollRef={sectionRef}/>
       <ApartmentsPageWrapper />  
     </MainWrapper>
   )

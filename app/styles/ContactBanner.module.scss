@@ -2,11 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #081438;
+    background-color: var(--earth-color);
     color: white;
-    padding-top: 200px;
-    padding-bottom: 75px;
-    transform: translateY(-150px);
+    padding-top: 10rem;
+    padding-bottom: 5rem;
 }
 .bannerTitle{
     display: flex;

@@ -6,18 +6,18 @@ import SocialNetwork from "../SocialNetwork";
 
 const info = [
   {
-    officeName: "Oficina Principal",
+    officeName: "SHOWROOM BARRANQUILLA",
     email: "ventas@edificoventum.com",
     phone: "809-555-5555",
     adress: "Carrera 49D # 98B-11",
     city: "Baranquilla, Colombia",
   },
   {
-    officeName: "Oficina Principal",
+    officeName: "OFICINAS BOGOTÁ",
     email: "ventas@edificoventum.com",
     phone: "809-555-5555",
-    adress: "Carrera 49D # 98B-11",
-    city: "Baranquilla, Colombia",
+    adress: "Calle 26 # 32-32",
+    city: "Bogotá, Colombia",
   },
 ];
 
@@ -35,12 +35,13 @@ const ContactInfoContainer = () => {
 
   return (
     <div className={styles.contactContainer}>
+      <a className={styles.headerCta}>¡Chatea con nosotros!</a>
       <div className={styles.ContactInfo}>
-      {renderedInfo}
-      <SocialNetwork />
+        {renderedInfo}
+        <SocialNetwork />
       </div>
       <ContactForm />
-      </div>
+    </div>
   );
 };
 

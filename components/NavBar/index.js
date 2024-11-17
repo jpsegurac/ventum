@@ -1,11 +1,26 @@
+import React, { useState, useEffect } from 'react';
+
 import Link from "next/link";
 import styles from "@/styles/NavBar.module.scss";
 /* -- Assets --*/
 import Logo from '@/assets/logos/header_logo.svg'; 
 
 const NavBar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 2);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className={styles.nav}>
+    <nav className={`${styles.nav} ${scrolled ? styles.nav_scrolled : styles.nav_top}`}>
       <ul className={styles.navHeader}>
         <li className={styles.navLogo}>
           <Link href='/'>
