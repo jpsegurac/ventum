@@ -10,7 +10,7 @@ import home_background_1 from '@/assets/images/home_page_background_1.jpg';
 
 
 
-const ZonasSocialesHeader = () => {
+const ZonasSocialesHeader = ( {scrollDown} ) => {
     return (
         <section className={styles.homeCarousel}>
             <div className={styles.carouselContent}>
@@ -18,7 +18,7 @@ const ZonasSocialesHeader = () => {
                     <h1 className={styles.carouselText_title} >ZONAS SOCIALES</h1>
                     <h3 className={styles.carouselText_subTitle}>para disfrutar todoso los dias</h3>
                 </div>
-                <div className={styles.arrow_bottom_container}>
+                <div className={styles.arrow_bottom_container} onClick={scrollDown}>
                     <ActionArrow className={styles.arrow_bottom}/>
                 </div>
                 <div className={styles.phone_container}>

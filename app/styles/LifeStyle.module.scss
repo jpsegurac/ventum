@@ -1,6 +1,7 @@
 .lifestyle{
     display: grid;
-    height: 40rem;
+    width: 100%;
+    height: 80%;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     column-gap: 7%;

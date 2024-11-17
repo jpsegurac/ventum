@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './ZonasSocialesQuad.module.scss';
 
-const ZonasSocialesQuad = ({ imageSrc, text, title, subtitle }) => {
+const ZonasSocialesQuad = ({ imageSrc, text, title, subtitle, scrollRef }) => {
     return (
-        <div className={styles.quadSection}>
+        <div className={styles.quadSection} ref={scrollRef}>
             <div className={styles.quadSectionContainer}>
                 <div className={styles.imageContainer}>
                     <img src={imageSrc} alt="Section" />

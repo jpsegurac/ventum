@@ -20,10 +20,10 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <section className={styles.footer_section}>
-                <h5><strong>{CONTACT_INFO.email}</strong></h5>
-                <h5>{CONTACT_INFO.phone_number}</h5>
-                <h5>{CONTACT_INFO.address}</h5>
-                <h5>{CONTACT_INFO.location}</h5>
+                <p><strong>{CONTACT_INFO.email}</strong></p>
+                <p>{CONTACT_INFO.phone_number}</p>
+                <p>{CONTACT_INFO.address}</p>
+                <p>{CONTACT_INFO.location}</p>
                 <div className={styles.footer_speak}>
                     <FooterSpeak width="155px" height="auto"/>
                     <h2 className={styles.footer_speak_text}>¡Hablemos!</h2>
@@ -31,10 +31,10 @@ const Footer = () => {
             </section>
             <section className={styles.footer_section}>
                 <FooterLogo width="100px" height="50px"/>
-                <h5>Todos los derechos reservados ©</h5>
+                <p>Todos los derechos reservados ©</p>
             </section>
             <section className={styles.footer_section}>
-                <h5>Encuentranos en:</h5>
+                <p>Encuentranos en:</p>
                 <div className={styles.footer_logos}>
                     <FacebookLogo width="20px" height="20px"/>
                     <InstagramLogo width="20px" height="20px"/>

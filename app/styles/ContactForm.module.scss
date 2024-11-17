@@ -1,14 +1,11 @@
 .contactForm{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 80%;
     height: 100%;
-    padding: 20px;
-    background-color: #8daef4;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .contactFormInput{
     display: flex;
@@ -21,6 +18,25 @@
     all:unset;
     border-bottom: solid black 1px;
     padding: 15px 0px;
+    color: var(--earth-color);
+
+    &_textArea {
+        all:unset;
+        border-bottom: solid black 1px;
+        padding: 15px 0px;
+        height: 5rem;
+        color: var(--earth-color);
+
+        &::placeholder {
+            color: var(--earth-color);
+            opacity: 30%;
+        }
+    }
+
+    &::placeholder {
+        color: var(--earth-color);
+        opacity: 30%;
+    }
 }
 
 .inputMessage{
@@ -31,27 +47,34 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    background-color: #8daef4;
+    border-radius: 30px;
     width: 100%;
-    padding: 20px;
 }
 
 .button {
-    margin-top: 1.5rem;
-    background-color: #5b7eed;
+    margin-top: 3rem;
+    background-color: #456eef;
     color: #fff;
     font-size: 1rem;
     font-weight: bold;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
     height: 30px;
     padding: 10px;
     display: flex;
     align-items: center;
+    margin-left: 10px;
   
   
-    &:hover {
-      background-color: darken(#3f72af, 10%);
+    &:hover{
+        background-color: rgba($color: #456eef, $alpha: 1.0);
     }
+  }
+
+  .contactFormTitle {
+    text-align: left;
+    color: var(--earth-color);
+    margin-left: 10px;
   }

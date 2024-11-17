@@ -6,12 +6,12 @@ const ContactInfo = ({officeName,email, phone, adress, city}) => {
         <div className={styles.contactInfoContainer}>
             <div className={styles.contactInfo}>
                 <hr className={styles.customLine}/>
-                <div className={styles.contactInfoTitle}>
-                    <h1>{officeName}</h1>
+                <div>
+                    <h1 className={styles.contactInfoTitle}>{officeName}</h1>
                 </div>
                 <div className={styles.contactInfoContent}>
                     <div className={styles.contactInfoItem}>
-                        <div>{email}</div>
+                        <strong><div>{email}</div></strong>
                     </div>
                     <div className={styles.contactInfoItem}>
                         <div>{phone}</div>
