@@ -16,7 +16,8 @@ const ImageCarousel = () => {
                 slidesPerView={1}
                 cssMode={true}
                 navigation={true}
-                pagination={false}
+                pagination={true}
+                loop={true}
                 modules={[Navigation, Pagination]}
                 className={styles.custom_swiper}
             >
@@ -46,13 +47,6 @@ const ImageCarousel = () => {
                         className={styles.carousel_image}
                         src="images/home_page_background_4.jpg"
                         alt="home_page_background_4"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        className={styles.carousel_image}
-                        src="images/home_page_background_5.jpeg"
-                        alt="home_page_background_5"
                     />
                 </SwiperSlide>
             </Swiper>

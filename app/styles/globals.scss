@@ -72,7 +72,7 @@ $screen-xl-min: 1200px;
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -100,9 +100,13 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  font-size: 20px;
 }
-p, li, td, a, div, span, h1, h2, h3, h4, h5, h6 {
+p, li, td, a, div, span {
   font-family: $primary-font-family;
+}
+h1, h2, h3, h4, h5, h60 {
+  font-family: $secondary-font-family;
 }
 
 @media (prefers-color-scheme: dark) {

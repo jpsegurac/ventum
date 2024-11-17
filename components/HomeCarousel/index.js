@@ -11,28 +11,24 @@ import KnowMoreButton from '@/assets/icons/know_more_button.svg';
 
 const HomeCarousel = () => {
     return (
-        <section className={styles.homeCarousel}>
-            <section className={styles.backgroundImage}>
-                <ImageCarousel />
-            </section>
+        <section className={styles.container}>
+            <div className={styles.Slider}>
+                <ImageCarousel />            
+            </div>            
             <div className={styles.carouselContent}>
-                {/* <div className={styles.arrow_left_container}><ActionArrow className={styles.arrow_left}/></div> */}
                 <div className={styles.carouselText}>
                     <h1 className={styles.carouselText_title} >TU NUEVO HOGAR,</h1>
-                    <h3 className={styles.carouselText_subTitle}>un refugio de desconexón</h3>
+                    <p className={styles.carouselText_subTitle}>un refugio de desconexón</p>
                 </div>
-                {/* <div className={styles.arrow_right_container}><ActionArrow className={styles.arrow_right}/></div> */}
                 <div className={styles.arrow_bottom_container}>
-                    <div className={styles.knowMore}>
-                        <KnowMoreButton className={styles.knowMore_logo}/>
-                        <h3 className={styles.knowMore_text}>Conoce más</h3>
-                    </div>
+                    
+                    <a className={styles.headerCta}>Conoce mas</a>
                     <ActionArrow className={styles.arrow_bottom}/>
                 </div>
-                <div className={styles.phone_container}>
-                    {/* <PhoneBackground className={styles.phone_background}/> */}
-                </div>
             </div>
+                <div className={styles.phone_container}>
+                    <PhoneBackground className={styles.phone_background}/>
+                </div>
         </section>
     );
 };
