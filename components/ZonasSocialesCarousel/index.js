@@ -36,35 +36,35 @@ return (
             className="mySwiper2"
         >
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="nature-1"/>
             <div className='copy even'>
                 <h2>GIMNASIO</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="nature-2"/>
             <div className='copy odd'>
                 <h2>BBQ</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="nature-3"/>
             <div className='copy even'>
                 <h2>PISCINA Y JACUZZI</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="nature-4"/>
             <div className='copy odd'>
                 <h2>SALON DE JUEGOS</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="nature-5"/>
             <div className='copy even'>
                 <h2>PLAYGROUND</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
@@ -84,19 +84,19 @@ return (
             className="mySwiper"
         >
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="nature-1"/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="nature-2"/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="nature-3"/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="nature-4"/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt="nature-5"/>
             </SwiperSlide>
         </Swiper>
     </section>

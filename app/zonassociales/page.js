@@ -5,10 +5,7 @@ import MainWrapper from '@/components/MainWrapper';
 import ZonasSocialesQuad from '@/components/ZonasSocialesQuad';
 import ZonasSocialesCarousel from '@/components/ZonasSocialesCarousel';
 
-/* -- Styles --*/
-import styles from "@/styles/page.module.scss";
-
-const zonassociales = () => {
+const Zonassociales = () => {
 
   const sectionRef = useRef(null);
 
@@ -32,4 +29,4 @@ const zonassociales = () => {
   )
 }
 
-export default zonassociales;
+export default Zonassociales;

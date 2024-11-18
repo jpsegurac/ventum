@@ -5,7 +5,6 @@ import styles from "./ZonasSocialesHeader.module.scss";
 /* -- Assets --*/
 import ActionArrow from '@/assets/icons/action_arrow.svg';
 import PhoneBackground from '@/assets/icons/phone_background.svg';
-import KnowMoreButton from '@/assets/icons/know_more_button.svg';
 import home_background_1 from '@/assets/images/home_page_background_1.jpg';
 
 
