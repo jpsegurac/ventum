@@ -6,11 +6,13 @@
   align-items: flex-end;
   justify-content: center;
   z-index: 10;
-
+  padding: 20px;
+  transition: all 0.5s ease-in;
+  
   &_top{
     background-color: #00000000;
   }
-
+  
   &_scrolled {
     background-color: var(--earth-color);
   }
@@ -31,8 +33,8 @@
   list-style: none;
 }
 
-.NavLogo {
-  flex: 1;  
+.navLogo { 
+  height: 70px;
 }
 
 .links {

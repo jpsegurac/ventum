@@ -19,9 +19,9 @@ const HomeApartments = () => {
             <div className={styles.arrow_left_container}><ActionArrow className={styles.arrow_left}/></div>
             <div className={styles.arrow_right_container}><ActionArrow className={styles.arrow_right}/></div>
             <div className={styles.knowApartments}>
-                <HomeApartmentButton className={styles.knowApartments_logo}/>
-                <h3 className={styles.knowApartments_text}>Conoce nuestros apartamentos</h3>
+                <a className={styles.quadCta}>Conoce nuestros apartamentos</a>
             </div>
+
             <div className={styles.pagination}>
                 <h3 className={styles.pagination_text}>°°°</h3>
             </div>

@@ -44,6 +44,22 @@
             transform: translate(-50%, -50%);
             font-size: large;
         }
+        &Cta{
+            background-color: rgba($color: #8daef5, $alpha: 0.8);
+            display: inline-block;
+            padding: 10px 30px;
+            line-height: 1;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+            transition: all 0.3s ease-in-out;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgba($color: #456eef, $alpha: 1.0);
+            }
+        }
     }
     &_logos {
         width: 120%;
