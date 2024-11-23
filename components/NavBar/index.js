@@ -12,7 +12,6 @@ const NavBar = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 2);
     };
-    console.log("🚀 ~ handleScroll ~ handleScroll:", handleScroll)
 
     window.addEventListener('scroll', handleScroll);
     return () => {
