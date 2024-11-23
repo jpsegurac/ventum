@@ -19,7 +19,7 @@ const ImageCarousel = () => {
                 pagination={true}
                 loop={true}
                 modules={[Navigation, Pagination]}
-                className={styles.custom_swiper}
+                className={styles.custom_swiper_carousel}
             >
                 <SwiperSlide>
                     <img
