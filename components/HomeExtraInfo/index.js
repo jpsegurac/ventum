@@ -11,13 +11,7 @@ const HomeExtraInfo = () => {
     return (
         <section className={styles.homeExtraInfo}>
             <HomeSocial />
-            <HomeMap />
-
-            <section className={styles.backgroundImage}>
-                
-            </section>
-            
-            
+            <HomeMap />   
         </section>
     );
 };

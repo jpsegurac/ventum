@@ -24,9 +24,8 @@ const Footer = () => {
                 <p>{CONTACT_INFO.phone_number}</p>
                 <p>{CONTACT_INFO.address}</p>
                 <p>{CONTACT_INFO.location}</p>
-                <div className={styles.footer_speak}>
-                    <FooterSpeak width="155px" height="auto"/>
-                    <h2 className={styles.footer_speak_text}>¡Hablemos!</h2>
+                <div className = {styles.footer_speak}>
+                    <a className={styles.footer_speakCta}>¡Hablemos!</a>
                 </div>
             </section>
             <section className={styles.footer_section}>

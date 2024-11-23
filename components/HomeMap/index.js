@@ -14,7 +14,6 @@ const HomeMap = () => {
                 className={styles.homeMap_map}
                 src={home_map}
                 alt="home_map"
-                fill={true}
             />
         </div>
     );

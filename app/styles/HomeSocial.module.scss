@@ -25,6 +25,7 @@
         margin-top: 3rem;
         border-bottom: 1px solid white;
         padding-bottom: 0.7rem;
+        text-align: center;
     }
 }
 
@@ -78,6 +79,7 @@
     height: 75px;
     position: relative;
     margin-top: 2rem;
+    text-align: center;
     &_logo{
         width: auto;
         height: 50px;
@@ -97,6 +99,23 @@
         transform: translate(-50%, -50%);
         white-space: nowrap;
         color: var(--nature-color)
+    }
+    &Cta{
+        background-color: var(--sand-color);
+        display: inline-block;
+        padding: 17px 50px;
+        line-height: 1;
+        color: var(--nature-color);
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover{
+            background-color: rgba( $color:#001038 , $alpha: 1.0);
+            color: var(--sand-color) ;
+        }
     }
 }
 

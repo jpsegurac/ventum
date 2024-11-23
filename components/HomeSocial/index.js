@@ -32,7 +32,7 @@ const HomeSocial = () => {
         <section className={styles.homeSocial}>
             <h1 className={styles.homeSocial_title}>EL PROYECTO CUENTA CON:</h1>
             <div className={styles.homeSocial_grid}>
-                <SocialArea className={styles.building} AreaLogo={BuildingIcon} AreaText={social_areas.building}/>
+                <SocialArea className={styles.building } AreaLogo={BuildingIcon} AreaText={social_areas.building}/>
                 <SocialArea className={styles.parking} AreaLogo={ParkingIcon} AreaText={social_areas.parking}/>
                 <SocialArea className={styles.roofTop} AreaLogo={RoofTopIcon} AreaText={social_areas.roofTop}/>
                 <SocialArea className={styles.lobby} AreaLogo={LobbyIcon} AreaText={social_areas.lobby}/>
@@ -46,8 +46,7 @@ const HomeSocial = () => {
                 
             </div>
             <div className={styles.knowSocialZones}>
-                <HomeSocialZones className={styles.knowSocialZones_logo}/>
-                <h3 className={styles.knowSocialZones_text}>Conoce nuestras zonas sociales</h3>
+                <a className={styles.knowSocialZonesCta}>¡Chatea con nosotros!</a>
             </div>
         </section>
     );
