@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "@/styles/ApartmentsApartment.module.scss";
 import ApartmentsArea from "../ApartmentsArea";
+import Image from "next/image";
 
 
 const ApartmentsApartment = ({type, privateArea, constructedArea, floorLocationImageName, apartmentDistribution, buttonUrl}) => {
+  const floor_location_image = require(`@/assets/images/${floorLocationImageName}.jpg`)
 
     return (
         <div className={styles.container}>
@@ -17,10 +19,11 @@ const ApartmentsApartment = ({type, privateArea, constructedArea, floorLocationI
                 <ApartmentsArea label='Área construida' area={constructedArea} />
             </div>
             <div className={styles.floorPlan}>
-              <img
-                src={`/path/to/${floorLocationImageName}.png`}
+              <Image
+                src={floor_location_image}
                 alt="Floor plan thumbnail"
                 className={styles.thumbnail}
+                layout="intrinsic"
               />
             </div>
             <button className={styles.button}>¡Lo quiero!</button>

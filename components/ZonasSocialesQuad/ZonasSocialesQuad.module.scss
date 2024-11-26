@@ -1,7 +1,6 @@
 
 .quadSection {
     width: 100%; /* Full height of the viewport */
-    overflow: hidden;
     display: flex;
     justify-content: center;
     padding: 50px;
@@ -15,7 +14,6 @@
 
         .imageContainer {
             width: 50%;
-            overflow: hidden;
             border-radius: 50px;
         }
         

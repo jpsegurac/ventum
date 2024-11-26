@@ -19,18 +19,20 @@
 }
 
 .navHeader {
-  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  gap: 25vw;
 }
 
 .navLinks {
-  width: 70%;
   display: flex;
   justify-content: space-between;
   list-style: none;
+  flex-wrap: wrap;
+  column-gap: 3rem;
+  justify-content:space-around;
 }
 
 .navLogo { 

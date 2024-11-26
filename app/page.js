@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef } from 'react';
 
-import MainWrapper from "@/components/MainWrapper";
 import HomeCarousel from "@/components/HomeCarousel";
 import LifeStyle from "@/components/LifeStyle";
 import HomeApartments from "@/components/HomeApartments";
@@ -18,13 +17,13 @@ const Home = () => {
   };
 
   return (
-      <MainWrapper>
+      <>
         <HomeCarousel scrollDown={scrollToSection}/>
         <LifeStyle scrollRef={sectionRef}/>
         <HomeApartments />
         <HomeExtraInfo />
         <HomeAirView />
-      </MainWrapper>
+      </>
   );
 }
 export default Home;

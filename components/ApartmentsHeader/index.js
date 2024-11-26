@@ -6,7 +6,7 @@ import styles from "./ApartmentsHeader.module.scss";
 import ActionArrow from '@/assets/icons/action_arrow.svg';
 import PhoneBackground from '@/assets/icons/phone_background.svg';
 import KnowMoreButton from '@/assets/icons/know_more_button.svg';
-
+import apartments_header_image from '@/assets/images/apartmentsHeader.jpg';
 
 
 const ApartmentsHeader = ({scrollDown}) => {
@@ -22,8 +22,8 @@ const ApartmentsHeader = ({scrollDown}) => {
             </div>
 
             <section className={styles.backgroundImage}>
-                <img
-                    src="images/apartmentsHeader.jpg"
+                <Image
+                    src={apartments_header_image}
                     alt="apartments_background_1"
                     fill={true}
                 />
