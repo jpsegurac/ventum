@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+"use client";
+import React, { useState, useLayoutEffect } from 'react';
 
 import Link from "next/link";
 import styles from "@/styles/NavBar.module.scss";
@@ -8,7 +9,7 @@ import Logo from '@/assets/logos/header_logo.svg';
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 2);
     };
@@ -29,6 +30,9 @@ const NavBar = () => {
         </li>
         <li className={styles.links}>
           <ul className={styles.navLinks}>
+              <li>
+                <Link href='/'>Inicio</Link>
+              </li>
               <li>
                 <Link href='/apartamentos'>Apartamentos</Link>
               </li>
