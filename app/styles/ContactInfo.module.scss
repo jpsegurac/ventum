@@ -1,3 +1,12 @@
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 .customLine{
     color: #0f1f44;
     margin: 10px 90% 10px 0px;
@@ -16,4 +25,8 @@
 .contactInfoTitle {
     font-weight: 300;
     font-size: x-large;
+}
+
+.contactInfoContainer{
+    animation: fadeIn 1s ease-in-out;
 }

@@ -2,6 +2,8 @@ import localFont from "next/font/local";
 import {Work_Sans} from "next/font/google"
 /* -- Styles --*/
 import "./styles/globals.scss";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 const work_sans = Work_Sans({
   subsets: ['latin'],
@@ -78,7 +80,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${work_sans.variable} ${mansory.variable}`}>
-        {children}
+      <NavBar />
+            {children}
+        <Footer />
       </body>
     </html>
   );
