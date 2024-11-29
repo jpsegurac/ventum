@@ -1,0 +1,90 @@
+.CardsQuad{
+    padding: 50px 0;
+    background-color: beige;
+    .Container{
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+}
+
+.GridContainer{
+    margin: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, minmax(10vh ,auto));
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    .Card{
+        &Text{
+            grid-area: 1 / 1 / 5 / 4;
+            background-color: #828236;
+            border-radius: 50px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .copy{
+                color: #efdec7;
+                font-size: 28px;
+                max-width: 85%;
+                h2{
+                    font-weight: 500;
+
+                }
+
+            }
+            .logo{
+            }
+        }
+        &Image{
+            grid-area: 3 / 3 / 7 / 6; 
+            img{
+                border-radius: 50px;
+                width: 100%;
+                height: auto;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+            }
+        }
+        &Cta{
+            grid-area: 5 / 1 / 7 / 3; 
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            .ContactButton{
+                position: relative;
+                background-color: #828236;
+                color: #efdec7;
+                padding: 10px 10px 10px 50px;
+                border-radius: 30px 10px 10px 30px;
+                .Phone{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                }
+            }
+        }
+        
+    }
+    @media (max-width: 768px) {
+        background-color: teal;
+        .Card{
+            &Text{
+                // grid-area:  1/ 2 / 5 / 5;
+                h2{
+                    font-size: 27px;
+
+                }
+            }
+            &Image{
+                // grid-area:  4 / 3 / 6 / 5;
+            }
+            &Cta{
+            }
+        }
+      }
+}
+
+
+
