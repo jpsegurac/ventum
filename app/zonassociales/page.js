@@ -3,6 +3,7 @@ import React, {useRef} from 'react';
 import ZonasSocialesHeader from '@/components/ZonasSocialesHeader';
 import ZonasSocialesQuad from '@/components/ZonasSocialesQuad';
 import ZonasSocialesCarousel from '@/components/ZonasSocialesCarousel';
+import ZonasSocialesCardsQuad from '@/components/ZonasSocialesCardsQuad';
 
 const Zonassociales = () => {
 
@@ -24,6 +25,7 @@ const Zonassociales = () => {
         scrollRef={sectionRef}
       />
       <ZonasSocialesCarousel />
+      <ZonasSocialesCardsQuad />
     </>
   )
 }
