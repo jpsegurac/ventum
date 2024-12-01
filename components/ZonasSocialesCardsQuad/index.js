@@ -1,10 +1,14 @@
 import React from "react";
+import Image from 'next/image'
+
+
 import styles from "@/styles/ZonasSocialesCardsQuad.module.scss";
-import TiktokLogo from '@/assets/icons/tiktok.svg';
 
-import Image from 'next/image';
-
+import LogoVentum from '@/assets/icons/logo_sand.svg';
+import LogoContact from '@/assets/icons/contact_phone_logo.svg';
 import home_background from '@/assets/images/home_page_background_4.jpg';
+
+
 
 const ZonasSocialesCardsQuad = () => {
     return(
@@ -16,7 +20,7 @@ const ZonasSocialesCardsQuad = () => {
                             <h2>¡Es momento de crear recuerdos inolvidables!</h2>
                         </div>
                         <div className={styles.logo}>                        
-                            <TiktokLogo width="80px" height="80px"/>
+                            <LogoVentum/>
                         </div>
                     </div>
                     <div className={styles.CardImage}>
@@ -28,8 +32,8 @@ const ZonasSocialesCardsQuad = () => {
                     <div className={styles.CardCta}>
                         <a href="/" target="_blank" className={styles.ContactButton}>
                                                 
-                        <TiktokLogo className={styles.Phone} />
-                        ¡Contactanos!
+                        <LogoContact className={styles.Phone} />
+                        ¡Contáctanos!
                         </a>
                     </div>
                 </div>
