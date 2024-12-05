@@ -1,6 +1,6 @@
 .nav {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   color: #fff;
   display: flex;
   align-items: flex-end;
@@ -33,6 +33,10 @@
   flex-wrap: wrap;
   column-gap: 3rem;
   justify-content:space-around;
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+    gap: 10px;
+  }
 }
 
 .navLogo { 
@@ -45,4 +49,13 @@
   justify-content: flex-end;
   margin-top: 1.5rem;
   cursor: pointer;
+  &_scrolled{
+    @media (max-width: 768px) {
+      display: none;
+
+      &:hover {
+        display: flex;
+      }
+    }
+  }
 }

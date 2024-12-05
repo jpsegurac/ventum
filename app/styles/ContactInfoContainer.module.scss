@@ -30,6 +30,10 @@
     position: absolute;
     top: 31.5%;
     left: 40%;
+    @media(max-width: 768px){
+        top: 49%;
+        left: 10%;
+    }
     &:hover{
         background-color: rgba($color: #456eef, $alpha: 1.0);
     }
