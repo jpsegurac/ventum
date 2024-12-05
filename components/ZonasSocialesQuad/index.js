@@ -10,6 +10,7 @@ const ZonasSocialesQuad = ({ imageSrc, text, title, subtitle, scrollRef }) => {
                     <img src={imageSrc} alt="Section" />
                 </div>
                 <div className={styles.textContainer}>
+                <div className={styles.container}>
                     <div className={styles.title}>
                         <h2 >{title}</h2>
                         <h2><span>{subtitle}</span></h2>
@@ -17,6 +18,7 @@ const ZonasSocialesQuad = ({ imageSrc, text, title, subtitle, scrollRef }) => {
                     <div className={styles.copy}>
                         <p>{text}</p>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
