@@ -1,3 +1,5 @@
+@use '../../app/styles/Variables.module.scss' as *;
+
 .homeCarousel {
     
     height: auto;
@@ -56,14 +58,18 @@
     grid-column: 2;
     grid-row: 2;
     text-align: center;
+    color: $sand-color;
 
     &_title {
         font-size: 2.5rem;
         font-weight: 50;
+        
+        text-shadow: 5px 4px 8px #020202ea;
     }
 
     &_subTitle {
         font-size: 1.5rem;
+        text-shadow: 5px 4px 8px #020202ea;
     }
 }
 
@@ -106,5 +112,8 @@
     position: absolute;
     z-index: -5;
     top: 0;
-    object-fit: contain;
+    img{
+
+        object-fit: cover;
+    }
 }
