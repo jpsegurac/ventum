@@ -9,6 +9,7 @@ import LifeStyleCarousel from '@/components/LifeStyleCarousel';
 const LifeStyle = ( {scrollRef} ) => {
     return (
         <section className={styles.lifestyle} ref={scrollRef}>
+        <div className={styles.copyContainer}>
             <div className={styles.lifestyle_info_header}>
                 <VentumLifeStyle className={styles.lifestyle_info_header_title}/>
                 <h1 className={styles.lifestyle_info_header_subtitle}>Un estilo de vida</h1>
@@ -25,6 +26,8 @@ const LifeStyle = ( {scrollRef} ) => {
                     ex ea commodo consequat.
                 </p>
             </div>
+
+        </div>
             <div className={styles.lifestyle_carousel}>
                 <LifeStyleCarousel />
             </div>
