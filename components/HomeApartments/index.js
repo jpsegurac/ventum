@@ -19,7 +19,7 @@ const HomeApartments = () => {
             <div className={styles.arrow_left_container}><ActionArrow className={styles.arrow_left}/></div>
             <div className={styles.arrow_right_container}><ActionArrow className={styles.arrow_right}/></div>
             <div className={styles.knowApartments}>
-                <a className={styles.quadCta}>Conoce nuestros apartamentos</a>
+                <a href='/apartamentos' className={styles.quadCta}>Conoce nuestros apartamentos</a>
             </div>
 
             <div className={styles.pagination}>
