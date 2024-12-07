@@ -31,18 +31,18 @@ const NavBar = () => {
         </li>
         <li className={`${styles.links} ${scrolled ? styles.links_scrolled : styles.links_top}`}>
           <ul className={styles.navLinks}>
-              <li>
+              {/* <li>
                 <Link href='/'>Inicio</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href='/apartamentos'>Apartamentos</Link>
               </li>
               <li>
                 <Link href='/zonassociales'>Zonas Sociales</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/nosotros'>Nosotros</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href='/contacto'>Contacto</Link>
               </li>
