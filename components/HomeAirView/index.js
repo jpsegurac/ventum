@@ -14,7 +14,6 @@ const HomeAirView = () => {
                 className={styles.homeAirView_image}
                 src={air_view}
                 alt="air_view"
-                fill={true}
             />
             <div className={styles.homeAirView_btn}>
                 <a className={styles.homeAirViewCta}>Vista aérea</a>
