@@ -21,8 +21,8 @@ const Home = () => {
       <>
         <HomeCarousel scrollDown={scrollToSection}/>
         <LifeStyle scrollRef={sectionRef}/>
-        {/* <HomeApartments /> */}
-        {/* <HomeExtraInfo /> */}
+        <HomeApartments />
+        <HomeExtraInfo />
         <HomeMap />
         <HomeAirView />
       </>
