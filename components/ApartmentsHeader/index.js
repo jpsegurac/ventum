@@ -1,34 +1,32 @@
 import React from 'react';
-import Image from 'next/image';
-import styles from '@/styles/ApartmentsHeader.module.scss';
+import ImageCarousel from '@/components/ImageCarousel';
+/* -- Styles --*/
+import styles from "@/styles/HomeCarousel.module.scss";
+/* -- Assets --*/
 import ActionArrow from '@/assets/icons/action_arrow.svg';
 import PhoneBackground from '@/assets/icons/phone_background.svg';
-import KnowMoreButton from '@/assets/icons/know_more_button.svg';
-import apartments_header_image from '@/assets/images/apartmentsHeader.jpg';
+import ImageCarouselAptos from '../ImageCarouselAptos';
 
 
-const ApartmentsHeader = ({scrollDown}) => {
+const HomeCarousel = ( {scrollDown} ) => {
     return (
-        <section className={styles.homeCarousel}>
+        <section className={styles.container}>
+            <div className={styles.Slider}>
+                <ImageCarouselAptos />            
+            </div>            
             <div className={styles.carouselContent}>
+                <div className={styles.carouselText}>
+                    <h1 className={styles.carouselText_title} >Apartamentos</h1>
+                </div>
                 <div className={styles.arrow_bottom_container}>
+                    <a className={styles.headerCta}>Conoce mas</a>
                     <ActionArrow className={styles.arrow_bottom} onClick={scrollDown}/>
                 </div>
+            </div>
                 <div className={styles.phone_container}>
                     <PhoneBackground className={styles.phone_background}/>
                 </div>
-            </div>
-
-            <section className={styles.backgroundImage}>
-                <Image
-                    src={apartments_header_image}
-                    alt="apartments_background_1"
-                    fill={true}
-                />
-            </section>
-            
-            
         </section>
     );
 };
-export default ApartmentsHeader;
+export default HomeCarousel;

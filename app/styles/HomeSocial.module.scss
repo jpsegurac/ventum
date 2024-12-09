@@ -1,19 +1,23 @@
+@use '@/styles/Variables.module.scss' as *;
+
 .homeSocial {
     width: 70%;
-    height: 50%;
+    max-width: 1200px;
     background-color: var(--nature-color);  
     border-radius: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -7rem;
+    z-index: 2;
 
     &_grid{
+        width: 70%;
         display: grid;
-        height: 50%;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
         align-items: center;
-        padding-left: 10%;
+        padding: 0 1rem;
         margin-top: 4rem;
     }
 
@@ -26,6 +30,15 @@
         border-bottom: 1px solid white;
         padding-bottom: 0.7rem;
         text-align: center;
+    }
+    @include md{
+        width: 90%;
+    }
+    @include sm{
+        margin-top: -2rem;
+        &_title {
+            font-size: 2rem;
+        }
     }
 }
 
@@ -75,10 +88,11 @@
 }
 
 .knowSocialZones {
-    width: 100%;
+    width: 80%;
     height: 75px;
     position: relative;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
     &_logo{
         width: auto;

@@ -1,41 +1,44 @@
-import React from 'react';
-/* -- Styles --*/
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 import styles from "@/styles/HomeApartments.module.scss";
-/* -- Assets --*/
-import ActionArrow from '@/assets/icons/action_arrow.svg';
-import HomeApartmentButton from '@/assets/icons/home_apartment_button.svg';
-import home_background from '@/assets/images/home_page_background_4.jpg';
-import Image from 'next/image';
 
+// import required modules
+import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
-
-const HomeApartments = () => {
-    return (
-        <section className={styles.homeApartment}>
-            <div className={styles.homeApartment_info}>
-                <h1 className={styles.homeApartment_info_text} >Apartamentos desde <strong>54,36 m²</strong></h1>
-                <h1 className={styles.homeApartment_info_text}>hasta <strong>121,48 m²</strong></h1>
+export default function HomeApartments() {
+return (
+    <section className={styles.container}>
+        <Swiper
+        navigation={true}
+        pagination={true}
+        keyboard={true}
+        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+        className={styles.mySwiperHomeApartaments}
+        >
+            <SwiperSlide className={styles.slide}>
+                <img src="images/Zonas_Sociales_Ventum-01.jpg" alt="nature-2"/>
+                
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+                <img src="images/Zonas_Sociales_Ventum-02.jpg" alt="nature-2"/>
+            </SwiperSlide>
+        <div className={styles.content}>
+            <div className={styles.copy}>
+                <p>Apartamentos desde <span>54,36 m<sup>2</sup></span></p>
+                <p>hasta <span>121,48 m<sup>2</sup></span></p>
             </div>
-            <div className={styles.arrow_left_container}><ActionArrow className={styles.arrow_left}/></div>
-            <div className={styles.arrow_right_container}><ActionArrow className={styles.arrow_right}/></div>
-            <div className={styles.knowApartments}>
-                <a href='/apartamentos' className={styles.quadCta}>Conoce nuestros apartamentos</a>
-            </div>
+            <a className={styles.headerCta} href='/apartamentos'>Conoce nuestros apartamentos</a>
 
-            <div className={styles.pagination}>
-                <h3 className={styles.pagination_text}>°°°</h3>
-            </div>
+        </div>
+        </Swiper>
 
-            <section className={styles.backgroundImage}>
-                <Image
-                    src={home_background}
-                    alt="home_background"
-                    fill={true}
-                />
-            </section>
-            
-            
-        </section>
-    );
-};
-export default HomeApartments;
+    </section>
+  );
+}

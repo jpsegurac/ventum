@@ -10,11 +10,13 @@ import home_map from '@/assets/images/home_map.png';
 const HomeMap = () => {
     return (
         <div className={styles.homeMap}>
-            <Image
-                className={styles.homeMap_map}
-                src={home_map}
-                alt="home_map"
-            />
+            <div className={styles.homeMap_container}>
+                <Image
+                    className={styles.homeMap_map}
+                    src={home_map}
+                    alt="home_map"
+                />
+            </div>
         </div>
     );
 };

@@ -42,11 +42,8 @@ const HomeSocial = () => {
                 <SocialArea className={styles.games} AreaLogo={GamesIcon} AreaText={social_areas.games}/>
                 <SocialArea className={styles.gym} AreaLogo={GymIcon} AreaText={social_areas.gym}/>
             </div>
-            <div className={styles.knowApartments}>
-                
-            </div>
             <div className={styles.knowSocialZones}>
-                <a className={styles.knowSocialZonesCta}>¡Chatea con nosotros!</a>
+                <a className={styles.knowSocialZonesCta} href='/zonassociales'>Conoce nuestras zonas sociales</a>
             </div>
         </section>
     );
