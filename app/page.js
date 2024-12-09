@@ -23,7 +23,6 @@ const Home = () => {
         <LifeStyle scrollRef={sectionRef}/>
         <HomeApartments />
         <HomeExtraInfo />
-        <HomeMap />
         <HomeAirView />
       </>
   );
