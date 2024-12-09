@@ -6,6 +6,7 @@ import LifeStyle from "@/components/LifeStyle";
 import HomeApartments from "@/components/HomeApartments";
 import HomeExtraInfo from "@/components/HomeExtraInfo";
 import HomeAirView from "@/components/HomeAirView";
+import HomeMap from '@/components/HomeMap';
 
 
 const Home = () => {
@@ -20,8 +21,9 @@ const Home = () => {
       <>
         <HomeCarousel scrollDown={scrollToSection}/>
         <LifeStyle scrollRef={sectionRef}/>
-        <HomeApartments />
-        <HomeExtraInfo />
+        {/* <HomeApartments /> */}
+        {/* <HomeExtraInfo /> */}
+        <HomeMap />
         <HomeAirView />
       </>
   );
