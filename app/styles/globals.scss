@@ -73,14 +73,13 @@ $screen-xl-min: 1200px;
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
-    --foreground: #ededed;
+    --foreground: #ffffff;
   }
 }
 
 
 
 body {
-  color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -127,7 +126,6 @@ h1, h2, h3, h4, h5, h60 {
   border: 1px solid white;
   opacity: 1;
   background: transparent;
-  box-shadow: 5px 4px 8px #020202ea; ;
 }
 .swiper .swiper-pagination-bullet-active{
   background: white;

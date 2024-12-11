@@ -10,12 +10,12 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 
-import './ZonasSocialesCarousel.scss';
+import './ApartmentsCarousel.scss';
 
 // import required modules
 import { FreeMode, Navigation, Pagination, Thumbs } from 'swiper/modules';
 
-export default function ZonasSocialesCarousel() {
+export default function ApartmentsCarousel() {
 const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
 return (

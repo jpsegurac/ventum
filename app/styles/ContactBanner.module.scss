@@ -10,11 +10,16 @@
 .bannerTitle{
     display: flex;
     justify-content: center;
-    font-size: 3rem;
-    font-weight: 500;
-    margin: 20px;
+    h1{
+        color: #FFFFFF;
+        font-size: 4rem;
+        font-weight: 300;
+        margin: 20px;
+
+    }
 }
 .bannerText{
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
