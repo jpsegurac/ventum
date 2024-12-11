@@ -6,10 +6,10 @@ const ContactBanner = () => {
         <div className={styles.bannerContainer}>
             <div>
                 <div className={styles.bannerTitle}>
-                    CONTACTO
+                    <h1>CONTACTO</h1>
                 </div>
                 <div className={styles.bannerText}>
-                    si requieres mas información sobre el proyecto, ¡Contactanos!
+                    <p>si requieres mas información sobre el proyecto, ¡Contactanos!</p>
                 </div>
             </div>
         </div>

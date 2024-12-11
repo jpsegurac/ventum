@@ -1,14 +1,14 @@
 import React from 'react';
 import ImageCarousel from '@/components/ImageCarousel';
 /* -- Styles --*/
-import styles from "@/styles/HomeCarousel.module.scss";
+import styles from "@/styles/ApartamentsHeader.module.scss";
 /* -- Assets --*/
 import ActionArrow from '@/assets/icons/action_arrow.svg';
 import PhoneBackground from '@/assets/icons/phone_background.svg';
 import ImageCarouselAptos from '../ImageCarouselAptos';
 
 
-const HomeCarousel = ( {scrollDown} ) => {
+const ApartamentsCarousel = ( {scrollDown} ) => {
     return (
         <section className={styles.container}>
             <div className={styles.Slider}>
@@ -29,4 +29,4 @@ const HomeCarousel = ( {scrollDown} ) => {
         </section>
     );
 };
-export default HomeCarousel;
+export default ApartamentsCarousel;

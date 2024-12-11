@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import ApartmentsPageWrapper from '@/components/ApartmentsPageWrapper';
 import ApartmentsHeader from '@/components/ApartmentsHeader';
 import ApartmentsBanner from '@/components/ApartmentsBanner';
-import ZonasSocialesCarousel from '@/components/ZonasSocialesCarousel';
+import ApartmentsCarousel from '@/components/ApartmentsCarousel';
 
 
 const Apartamentos = () => {
@@ -17,6 +17,7 @@ const Apartamentos = () => {
   return (
     <>
       <ApartmentsHeader scrollDown={scrollToSection}/>
+      <ApartmentsCarousel/>
       <ApartmentsBanner scrollRef={sectionRef}/>
       <ApartmentsPageWrapper />  
     </>

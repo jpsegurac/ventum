@@ -4,6 +4,8 @@ import ContactInfo from "../ContactInfo";
 import ContactForm from "../ContactForm";
 import SocialNetwork from "../SocialNetwork";
 
+import LogoContact from '@/assets/icons/contact_phone_logo.svg';
+
 const info = [
   {
     officeName: "SHOWROOM BARRANQUILLA",
@@ -35,7 +37,10 @@ const ContactInfoContainer = () => {
 
   return (
     <div className={styles.contactContainer}>
-      <a className={styles.headerCta}>¡Chatea con nosotros!</a>
+      <a className={styles.headerCta}>
+        <LogoContact className={styles.Phone} />
+        ¡Chatea con nosotros!
+      </a>
       <div className={styles.ContactInfo}>
         {renderedInfo}
         <SocialNetwork />

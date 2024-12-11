@@ -28,27 +28,7 @@ const ImageCarouselAptos = () => {
                         alt="home_page_background_1"
                     />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        className={styles.carousel_image}
-                        src="images/home_page_background_2.jpg"
-                        alt="home_page_background_2"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        className={styles.carousel_image}
-                        src="images/home_page_background_3.jpg"
-                        alt="home_page_background_3"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        className={styles.carousel_image}
-                        src="images/home_page_background_4.jpg"
-                        alt="home_page_background_4"
-                    />
-                </SwiperSlide>
+                
             </Swiper>
         );
 };
