@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Link from 'next/link';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -34,7 +35,7 @@ return (
                 <p>Apartamentos desde <span>54,36 m<sup>2</sup></span></p>
                 <p>hasta <span>121,48 m<sup>2</sup></span></p>
             </div>
-            <a className={styles.headerCta} href='/apartamentos'>Conoce nuestros apartamentos</a>
+            <Link className={styles.headerCta} href='/apartamentos'>Conoce nuestros apartamentos</Link>
 
         </div>
         </Swiper>

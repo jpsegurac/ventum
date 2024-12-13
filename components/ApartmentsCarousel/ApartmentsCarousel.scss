@@ -1,7 +1,11 @@
 @use '@/styles/Variables.module.scss' as *;
 
-.ZonasSocialesCarousel{
+.ApartmentsCarousel{
     height: 100vh;
+    padding: 5% 10%;
+    background-image: url('/images/fondo1.svg');
+    background-color: $sand-color;
+    background-attachment: fixed;
 }
 
 
@@ -24,9 +28,9 @@
     background-position: center;
 }
 
-.mySwiper2 {
-    height: 80%;
-    width: 100%;
+.mySwiper3 {
+    height: 80% !important;
+    width: 100% !important;
     .swiper-wrapper{
         .swiper-slide {
             text-align: center;
@@ -69,9 +73,9 @@
     }
 }
 
-.mySwiper {
-    height: 20%;
-    padding: 0 10%;
+.mySwiper4 {
+    height: 20% !important;
+    padding: 0 10% !important;
     box-sizing: border-box;
     background-color: $sand-color;
     .swiper-slide {

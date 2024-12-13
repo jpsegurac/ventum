@@ -13,6 +13,7 @@ import BbqIcon from '@/assets/icons/7_bbq.svg';
 import GamesIcon from '@/assets/icons/8_games.svg';
 import GymIcon from '@/assets/icons/9_gym.svg';
 import HomeSocialZones from '@/assets/icons/home_social_zones.svg';
+import Link from 'next/link';
 
 
 const social_areas = {
@@ -42,8 +43,9 @@ const HomeSocial = () => {
                 <SocialArea className={styles.games} AreaLogo={GamesIcon} AreaText={social_areas.games}/>
                 <SocialArea className={styles.gym} AreaLogo={GymIcon} AreaText={social_areas.gym}/>
             </div>
-            <div className={styles.knowSocialZones}>
-                <a className={styles.knowSocialZonesCta} href='/zonassociales'>Conoce nuestras zonas sociales</a>
+            <div className={styles.knowSocialZones}>              
+                <Link className={styles.knowSocialZonesCta} href='/zonassociales'>Conoce nuestras zonas sociales</Link>
+                
             </div>
         </section>
     );
