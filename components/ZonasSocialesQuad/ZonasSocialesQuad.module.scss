@@ -5,7 +5,10 @@
     display: flex;
     justify-content: center;
     padding: 50px;
-    background-color: #efdec7;
+    background-color: $sand-color;
+    background-image: url('/images/fondo1.svg');
+    background-color: $sand-color;
+    background-attachment: fixed;
     &Container{
         max-width: 1200px;
         display: flex;

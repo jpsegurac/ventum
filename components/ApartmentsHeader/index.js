@@ -14,7 +14,7 @@ const ApartamentsCarousel = ( {scrollDown} ) => {
             <div className={styles.Slider}>
                 <ImageCarouselAptos />            
             </div>            
-            <div className={styles.carouselContent}>
+            {/* <div className={styles.carouselContent}>
                 <div className={styles.carouselText}>
                     <h1 className={styles.carouselText_title} >Apartamentos</h1>
                 </div>
@@ -22,10 +22,13 @@ const ApartamentsCarousel = ( {scrollDown} ) => {
                     <a className={styles.headerCta}>Conoce mas</a>
                     <ActionArrow className={styles.arrow_bottom} onClick={scrollDown}/>
                 </div>
-            </div>
+            </div> */}
                 <div className={styles.phone_container}>
                     <PhoneBackground className={styles.phone_background}/>
                 </div>
+            <div className={styles.floatBox}>
+                <h2> CONOCE A NUESTRO APARTAMENTO MODELO</h2>
+            </div>
         </section>
     );
 };

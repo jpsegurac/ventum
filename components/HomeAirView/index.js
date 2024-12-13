@@ -3,7 +3,7 @@ import Image from 'next/image';
 /* -- Styles --*/
 import styles from "@/styles/HomeAirView.module.scss";
 /* -- Assets --*/
-import air_view from '@/assets/images/lifestyle_5.jpeg';
+import air_view from '@/assets/images/Foto_vista_aerea.jpg';
 import HomeAirViewBtn from '@/assets/icons/know_more_button.svg';
 
 
