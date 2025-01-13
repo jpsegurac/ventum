@@ -36,7 +36,7 @@ return (
             className="mySwiper2"
         >
             <SwiperSlide>
-            <img src="images/zonas_sociales/Zonas_Sociales_Ventum-01.png" alt="nature-1"/>
+            <img src="images/Zonas_Sociales_Ventum-01.png" alt="nature-1"/>
             {/* <div className='copy even'>
                 <h2>GIMNASIO</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
