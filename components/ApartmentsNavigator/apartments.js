@@ -3,7 +3,7 @@ const apartments = {
         "type":"Tipo A",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoA",
         "apartmentDistribution":"images/APTO_A",
         "buttonUrl":"urll!!"
     },
@@ -11,7 +11,7 @@ const apartments = {
         "type":"Tipo B",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoB",
         "apartmentDistribution":"images/APTO_B",
         "buttonUrl":"urll!!"
     },
@@ -19,7 +19,7 @@ const apartments = {
         "type":"Tipo C",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoC",
         "apartmentDistribution":"images/APTO_C",
         "buttonUrl":"urll!!"
     },
@@ -27,7 +27,7 @@ const apartments = {
         "type":"Tipo D",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoD",
         "apartmentDistribution":"images/APTO_D",
         "buttonUrl":"urll!!"
     },
@@ -35,7 +35,7 @@ const apartments = {
         "type":"Tipo E",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoE",
         "apartmentDistribution":"images/APTO_E",
         "buttonUrl":"urll!!"
     },
@@ -43,7 +43,7 @@ const apartments = {
         "type":"Tipo F",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoF",
         "apartmentDistribution":"images/APTO_F",
         "buttonUrl":"urll!!"
     },
@@ -51,7 +51,7 @@ const apartments = {
         "type":"Tipo G",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoG",
         "apartmentDistribution":"images/APTO_G",
         "buttonUrl":"urll!!"
     },
@@ -59,7 +59,7 @@ const apartments = {
         "type":"Tipo G1",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoG",
         "apartmentDistribution":"images/APTO_G",
         "buttonUrl":"urll!!"
     },
@@ -67,7 +67,7 @@ const apartments = {
         "type":"Tipo H",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoH",
         "apartmentDistribution":"images/APTO_H",
         "buttonUrl":"urll!!"
     },
@@ -75,7 +75,7 @@ const apartments = {
         "type":"Tipo I",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoI",
         "apartmentDistribution":"images/APTO_I",
         "buttonUrl":"urll!!"
     },
@@ -83,7 +83,7 @@ const apartments = {
         "type":"Tipo J",
         "privateArea":"123.1",
         "constructedArea":"123.12",
-        "floorLocationImageName":"imgurl1",
+        "floorLocationImageName":"TipoJ",
         "apartmentDistribution":"images/APTO_J",
         "buttonUrl":"urll!!"
     }

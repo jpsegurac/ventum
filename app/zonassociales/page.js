@@ -21,7 +21,7 @@ const Zonassociales = () => {
         imageSrc="images/lifestyle_4.jpg" /* Replace with your image URL */
         title="Lobby"
         subtitle="Doble altura"
-        text="This is some example text content for the section.This is some example text content for the section.This is some example text content for the section.This is some example text content for the section."
+        text=""
         scrollRef={sectionRef}
       />
       <ZonasSocialesCarousel />

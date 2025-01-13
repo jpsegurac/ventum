@@ -36,35 +36,35 @@ return (
             className="mySwiper3"
         >
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-01.png" alt="nature-1"/>
+            <img src="images\aptos\alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="nature-1"/>
             {/* <div className='copy even'>
                 <h2>GIMNASIO</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
             </div> */}
             </SwiperSlide>
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-02.png" alt="nature-2"/>
+            <img src="images\aptos\christopher-jolly-GqbU78bdJFM-unsplash.jpg" alt="nature-2"/>
             {/* <div className='copy odd'>
                 <h2>BBQ</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
             </div> */}
             </SwiperSlide>
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-03.png" alt="nature-3"/>
+            <img src="images\aptos\deborah-cortelazzi-gREquCUXQLI-unsplash.jpg" alt="nature-3"/>
             {/* <div className='copy even'>
                 <h2>PISCINA Y JACUZZI</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
             </div> */}
             </SwiperSlide>
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-04.png" alt="nature-4"/>
+            <img src="images\aptos\gabriel-beaudry-WuQME0I_oZA-unsplash.jpg" alt="nature-4"/>
             {/* <div className='copy odd'>
                 <h2>SALON DE JUEGOS</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
             </div> */}
             </SwiperSlide>
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-05.png" alt="nature-5"/>
+            <img src="images\aptos\naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="nature-5"/>
             {/* <div className='copy even'>
                 <h2>PLAYGROUND</h2>
                 <p>Culpa ipsum consequat do et ea tempor non labore consequat anim exercitation id sunt ad.</p>
@@ -84,19 +84,19 @@ return (
             className="mySwiper4"
         >
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-01.png" alt="nature-1"/>
+            <img src="images\aptos\alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="nature-1"/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-02.png" alt="nature-2"/>
+            <img src="images\aptos\christopher-jolly-GqbU78bdJFM-unsplash.jpg" alt="nature-2"/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-03.png" alt="nature-3"/>
+            <img src="images\aptos\deborah-cortelazzi-gREquCUXQLI-unsplash.jpg" alt="nature-3"/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-04.png" alt="nature-4"/>
+            <img src="images\aptos\gabriel-beaudry-WuQME0I_oZA-unsplash.jpg" alt="nature-4"/>
             </SwiperSlide>
             <SwiperSlide>
-            <img src="images/Zonas_Sociales_Ventum-05.png" alt="nature-5"/>
+            <img src="images\aptos\naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="nature-5"/>
             </SwiperSlide>
         </Swiper>
     </section>
