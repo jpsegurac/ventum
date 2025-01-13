@@ -5,7 +5,7 @@ import Image from "next/image";
 
 
 const ApartmentsApartment = ({type, privateArea, constructedArea, floorLocationImageName, apartmentDistribution, buttonUrl}) => {
-  const floor_location_image = require(`@/assets/images/${floorLocationImageName}.jpg`)
+  const floor_location_image = require(`@/assets/images/floorLocation/${floorLocationImageName}.jpg`)
 
     return (
         <div className={styles.container}>
